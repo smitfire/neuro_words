@@ -1,0 +1,1516 @@
+BMC Neuroscience
+
+BioMed Central
+
+Open Access
+
+Research article
+
+Brain maps of Iowa gambling task
+Ching-Hung Lin1,2,3, Yao-Chu Chiu*3, Chou-Ming Cheng2 and JenChuen Hsieh*1,2,4
+Address: 1Institute of Neuroscience, School of Life Science, National Yang-Ming University, Taipei, Taiwan, 2Laboratory of Integrated Brain
+Research, Department of Medical Research & Education, Taipei Veterans General Hospital, Taipei, Taiwan, 3Department of Psychology, Soochow
+University, Taipei, Taiwan and 4Institute of Brain Science and Brain Research Center, School of Medicine, National Yang-Ming University, Taipei,
+Taiwan
+Email: Ching-Hung Lin - eandy924@ms42.hinet.net; Yao-Chu Chiu* - yaochu@mail2000.com.tw; ChouMing Cheng - cmcheng@vghtpe.gov.tw; Jen-Chuen Hsieh* - jchsieh@ym.edu.tw
+* Corresponding authors
+
+Published: 26 July 2008
+BMC Neuroscience 2008, 9:72
+
+doi:10.1186/1471-2202-9-72
+
+Received: 27 March 2008
+Accepted: 26 July 2008
+
+This article is available from: http://www.biomedcentral.com/1471-2202/9/72
+© 2008 Lin et al; licensee BioMed Central Ltd.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/2.0),
+which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+
+Abstract
+Background: Somatic Marker Hypothesis (SMH), based on clinical observations, delineates
+neuronal networks for interpreting consciousness generation and decision-making. The Iowa
+gambling task (IGT) was designed to verify the SMH. However, more and more behavioral and
+brain imaging studies had reported incongruent results that pinpointed a need to re-evaluate the
+central representations of SMH. The current study used event-related fMRI (functional Magnetic
+Resonance Imaging) to examine neural correlates of anticipation vs. outcome, wins vs. losses, and
+differential decks' contingencies of IGT.
+Results: Behavioral results showed a prominent effect of frequency in driving choices. The insula
+and basal ganglia were activated during the anticipation phase while the inferior parietal lobule was
+activated during the outcome phase. The activation of medial prefrontal cortex was especially
+targeted during the high punishment contingencies. The data suggest that under uncertainty the
+normal decision makers can become myopic.
+Conclusion: The insula and basal ganglia might play a vital role in long-term guidance of decisionmaking. Inferior parietal lobule might participate in evaluating the consequence and medial
+prefrontal cortex may service the function of error monitoring.
+
+Background
+Damasio et al. proposed the Somatic Marker Hypothesis
+(SMH) to interpret the function of the medial prefrontal
+cortex (MPFC) [1-4]. Earlier neurological studies by
+Damasio et al. indicated that the MPFC plays an important role in integrating the bodily signals (Somatic
+Marker), which provide emotional representation of different external events. In another words, normal decision
+makers with intact MPFC can integrate the bodily signals
+
+implicitly and automatically make advantageous real-life
+decisions, particularly regarding uncertain events which
+cannot be logically inferred. This is supported by clinical
+observations that the MPFC patients who retain normal
+IQ score may still encounter problems in making real-life
+decisions.
+Notably, a growing body of behavioral and theoretical
+studies of the IGT had pinpointed some possible con-
+
+Page 1 of 15
+(page number not for citation purposes)
+
+BMC Neuroscience 2008, 9:72
+
+founds that may result in misinterpretation of the SMH
+[5-11]. Some IGT studies suggested that decision-makers
+may actually preferred bad final-outcome deck B to good
+final-outcome deck C. Lin and Chiu et al. [6,7] termed this
+phenomenon as "prominent deck B". Wilder et al. [9],
+MacPherson et al. [12], Maia and McClelland [8] and
+Rodríguez-Sa'nchez et al. [13] also mentioned that normal
+decision-makers may be guided by gain-loss frequency
+rather than final outcome.
+According to neurological studies by Iowa group, Bechara
+and Damasio [14,15] defined additional brain regions for
+the neuronal network of SMH. Two loops have been postulated: the "Body Loop" and the "As-if Body Loop". The
+neural substrates of both loops include the MPFC, amygdala, insular cortex (IN), somatosensory cortex (S1), and
+brainstem nuclei [14]. They suggested that these brain
+regions constitute the central representation of the
+somatic signal processing in generating the advantageous
+decisions. Recently, the Iowa group had enlisted the striatum, anterior cingulate cortex (ACC) and the dorsolateral
+prefrontal cortex (DLPFC) to extend the neuronal loops of
+SMH [15].
+However, some neuroscientists [5,10,11] pointed out the
+theoretical flaws of these loops for SMH, e.g., there being
+little neurological (lesion) evidence of S1 involvement for
+the SMH [5]. An increasing number of studies demonstrated that deficits of proposed somatic loops do not necessarily affect IGT performance [9,16-21]. Many IGT
+related studies [9,16-21] provided data incongruent with
+the proposed neuronal correlates for SMH. Dunn, et al.
+[22], after thoroughly reviewing the SMH and IGT-related
+behavioral, physiological, lesion, and brain imaging studies, reported the diversity of the results [23-30] (see also
+Table 1). The imaging studies revealed that except the
+MPFC, regions as the anterior cingulate cortex and dorsolateral prefrontal cortex (DLPFC) were highly involved in
+decision-making processing during IGT, but were not
+included from the proposed main loops by the Iowa
+group [14]. The S1 was not activated except in two studies
+[23,25]. One major limitation is that these IGT brain
+imaging studies only investigated the central representations for the risk vs. safe or good vs. bad decks. Furthermore, most IGT brain imaging studies focused only on the
+MPFC or orbitofrontal cortex (OFC) but did not discuss
+other regions associated with probability learning [31,32]
+for decision making under uncertainty.
+It is noteworthy that the aforementioned studies did not
+investigate the critical dimensions of "anticipation" and
+"experience" of the decision making, respectively, to elucidate the complexity of the IGT-brain processing. Knutson et al. [33] observed that anticipation of reward and the
+actual fulfillment of outcome may involve different brain
+
+http://www.biomedcentral.com/1471-2202/9/72
+
+circuitries. During reward anticipation the nuclear
+accumbens was involved while during outcome experience the MPFC was activated. Moreover, Breiter et al. [34],
+using a gambling task comprising both monetary reward
+and punishment, demonstrated that anticipation and
+experience of monetary gains and losses may have different central representations.
+In this study, the event-related fMRI (functional Magnetic
+Resonance Imaging) was exploited to monitor brain activity associated with gain-loss frequency and final outcome,
+respectively. Brain activity during anticipation (decision
+driving) and experience (value representation) were deciphered to elucidate the neuronal architectures for the two
+dimensions in the decision making processing. Detailed
+analyses of anticipation and experience of gain, loss and
+draw were conducted. Four choices (2 good and 2 bad
+final-outcome decks) and the hierarchical changes of
+value in IGT were detailed to track the reactive brain
+responses. According to the findings obtained by Wilder et
+al. [8,9,12,13,18,35-40], normal decision makers should
+prefer decks B and D (high-frequency gains decks) over
+decks A and C (low-frequency gains decks). The lentiform
+nucleus (LN, basal ganglia) should be targeted to deal
+with probability information processing [41]. If the SMH
+holds, then the MPFC is expected to be activated for the
+integration of somatic markers for decision making under
+uncertainty.
+
+Results
+Behavior data and leaning curve
+Behavioral results were similar to those obtained by
+Wilder et al. [6-9,12,13,18,35-40]. Gain-loss frequency
+rather than final outcome dominated subjects' behavior.
+Behavioral data confirmed the observations obtained by
+Lin and Chiu et al. [6,7] in which subjects preferred bad
+final outcome deck B of higher-frequency gain to the
+other three decks (see Additional file 1). Moreover, the
+learning curve indicated that the deck B was relatively
+more attractive than the other three decks throughout the
+game (see Additional file 2).
+Brain activation during anticipation and experience
+This experiment result demonstrated that IN and LN
+rather than MPFC was correlated with decision processing, particularly during the anticipation period. This
+observation supported the hypothesis based on gain-loss
+frequency. In the original IGT (under the uncertainty
+game), brain activation during anticipation differed markedly from that during experience (Figure 1). Bilateral IN,
+LN, right superior temporal gyrus (STG), left inferior parietal lobule (IPL), and ACC were activated during the
+phase of anticipatory feeling and guide decisions (Table
+2). Conversely, the other brain loops related to the experience of monetary outcome encompassed the right IPL
+
+Page 2 of 15
+(page number not for citation purposes)
+
+BMC Neuroscience 2008, 9:72
+
+http://www.biomedcentral.com/1471-2202/9/72
+
+Table 1: Summary of functional brain imaging observations in IGT related studies.
+
+Main loop
+of SMH
+
+Ernst et al. Ernst et al. Bolla et al. Adinoff et al. Tucker et al. Bolla et al. Fukui et al.
+(2002)
+(2003b)
+(2003)
+(2003)
+(2004)
+(2005)
+(2005)
+(PET)
+(PET)
+(PET)
+(PET)
+(PET)
+(PET)
+(fMRI)
+
+Northoff et al.
+(2006)
+(fMRI)
+
+Cortical Areas
+Medial
+Prefrontal
+Cortex (R)
+Medial
+Prefrontal
+Cortex (L)
+Orbitofrontal
+Cortex (R)
+Orbitofrontal
+Cortex (L)
+Dorsolateral
+Prefrontal
+Cortex (R)
+Dorsolateral
+Prefrontal
+Cortex (L)
+Middle Frontal
+Gyrus (R)
+Middle Frontal
+Gyrus (L)
+Superior Frontal
+Gyrus (R)
+Superior Frontal
+Gyrus (L)
+Somatosensory
+Inferior Parietal
+Lobule
+Insular Cortex
+Anterior
+Cingulate
+Cortex
+
+V
+
+V
+
+V
+
+V
+
+V
+
+V(Extended)
+
+V
+
+V(Extended)
+
+V
+
+V
+
+V
+
+V
+
+V
+
+V
+
+V
+
+V
+
+V
+
+V
+
+V
+
+V
+
+V
+
+V
+
+V
+V
+V
+V
+V
+V
+V
+V(Extended)
+
+V
+V
+
+V
+V
+
+V
+
+V
+
+Subcortical Areas
+Lentiform
+Nucleus
+(Basal Ganglia)
+Amygdala
+Hippocampus
+Thalamus
+Brainstem
+Nuclei
+Cerebellum (L)
+
+V(Extended)
+
+V
+
+V
+V
+V
+V
+V
+
+V
+
+The table shows divergent results across the brain-imaging studies related to SMH and IGT.
+
+[31,42], superior frontal gyrus (SFG) and left middle frontal gyrus (MFG) [43] (Table 3). Brain areas for experience
+phase varied more than those for anticipation.
+Brain activation of gain, draw and loss
+The respective activation during anticipation and experience of conditions of gain, draw and loss events was analyzed further. The data showed that the brain activations
+of gain, draw and loss during anticipation and decision
+
+processing overlapped considerably, including middle
+temporal gyrus (MTG), IN, LN (Figure 2).
+On the other hand, brain activations of gain, draw and
+loss following outcome appearance (experience) segregated respectively into different regions, mainly located in
+the posterior part of the brain. The Precuneus, posterior
+IN and posterior MTG were engaged in the experience
+phase. Furthermore, the lateral part of the IPL and left
+
+Page 3 of 15
+(page number not for citation purposes)
+
+BMC Neuroscience 2008, 9:72
+
+http://www.biomedcentral.com/1471-2202/9/72
+
+Brain activation of decks (A, B, C, D)
+During the anticipatory phase, activation was mostly
+found in MTG, caudate nucleus (CN), IN, and thalamus
+across, although not in all, the four desks. The respective
+brain activation map for each deck overlapped substantially during the anticipatory phase. IN engagement was
+the only structure identified to be consistent with the originally proposed main loops of SMH (Figure 3).
+
+During the experience phase, diverse patterns for the four
+decks were revealed. The MFG and IPL showed common
+activation to the outcomes of all decks. The left Precuneus
+and the right IPL were activated only during the experience phases of deck A and B (a relatively large gain-loss
+and bad long-term outcome). The CN tail was activated by
+the deck A, C, and D, but not by B (Figure 3). The left Precuneus was engaged only by deck B.
+Time courses of regional activity for 11 monetary values ($
++100, $ + 50, , $ – 350, $ -1150)
+The time courses of brain activity for each monetary value
+as extracted from significantly activated regions (identified from the anticipation- and experience-related maps; 5
+from the former and 1 from the latter) were depicted
+using a peri-stimulus time histogram (PSTH; a default
+function of SPM2) (Table 2 &3; Figure 4). The activities of
+most involved regions didn't follow the monetary
+amount, except for differential responses observed in the
+right LN and left STG during the anticipation period (Figure 4). MPFC activation was only discovered during the
+outcome period of $ -1150, which is the largest loss in IGT
+(Figure 5).
+
+Figure
+Brain
+activation
+1
+during anticipation and experience
+Brain activation during anticipation and experience.
+The red regions (clusters) denoted the brain activation during the anticipation period. The result indicated that the bilateral striatum, insular cortex, superior temporal gyrus and left
+anterior cingulate cortex were significantly activated (Random Effect: Puncorrected = 0.0001, K = 30). During the anticipation period (regions mark in red), the insular cortex and
+basal forebrain rather than the medial prefrontal cortex
+dominated the generation of subjective feeling and guided the
+decision-making. On the other hand, during the experience
+period (regions mark in green), the inferior parietal lobule,
+superior frontal gyrus and middle frontal gyrus were involved
+in the consequence assessment of monetary decision (Random Effect: Puncorrected = 0.0001, K = 30). The thresholds were
+adjusted for visualization and discussion purpose.
+
+MFG were involved during the outcome phase (experience) [43]. Bilateral MTG were also commonly activated
+in the three conditions, supporting the fact that the activation of value change is correlated with the bar alteration
+on the screen (see computer version of IGT [14]).
+
+Discussion
+The "prominent deck B phenomenon"
+The perseverated behavior of "prominent deck B phenomenon" was confirmed as previously reported [6-9,12,13]
+albeit that the effect was sub-significant in our current
+study (see Additional file 1 and 2). This result corroborated many IGT-related studies that reported that subjects
+actually preferred bad final-outcome deck B of high-frequency gain over good final-outcome decks C or D
+[6,8,9,13,18,22,35-40,44,45]. Even Sevy et al., Johnson et
+al. and Bechara [46,47] also demonstrated the same
+"prominent deck B phenomenon" which was at odds with
+their first report [48]. This phenomenon astonishingly
+contradicts the basic assumption of IGT which posits that
+normal decision makers are prone to avoid the bad deck.
+In fact, increasing number of studies consistently showed
+that participants preferred decks B and D to decks A and C
+[9,13,18,35-40,44,45]. The reason that the earlier studies
+failed to demonstrate such phenomenon is that most
+studies summed the chosen numbers of deck A and B or
+C and D ad hoc, respectively, for inference on the bad vs.
+good decks. Notwithstanding, most IGT brain-imaging
+
+Page 4 of 15
+(page number not for citation purposes)
+
+BMC Neuroscience 2008, 9:72
+
+http://www.biomedcentral.com/1471-2202/9/72
+
+Table 2: Brain activation during anticipation period.
+
+MNI coordinate
+X
+
+Y
+
+Z
+
+Brain Region (Hemisphere)
+Insula (R)
+Lentiform Nuclear (R)
+Superior Temporal Gyrus (R)
+Posterior Insula (L)
+Anterior Insula (L)
+Lentiform Nuclear (L)
+Inferior Parietal Lobule (L)
+Cingulate Gyrus (L)
+
+40
+26
+50
+-46
+-34
+-16
+-54
+-4
+
+6
+-2
+-46
+-6
+14
+12
+-28
+18
+
+12
+-6
+10
+14
+10
+0
+30
+30
+
+Cluster Size
+(Voxels)
+
+T
+
+P FWE-Corr
+
+148
+119
+76
+96
+67
+202
+31
+32
+
+7.42
+7.37
+6.77
+6.65
+6.61
+6.32
+5.90
+5.51
+
+0.008
+0.009
+0.035
+0.044
+0.048
+0.080
+0.170
+0.329
+
+The random effect model was applied with stringent family-wise error correction (thresholded at T = 4.42) and voxel-extent of 30 for presentation
+brevity and discussion purpose.
+
+studies did not report in details the subjects' behavioral
+data in regards to the preference to four-decks neither.
+
+Brain activation for anticipation and experience
+In the current study, the IN and LN were strongly associated with events of uncertain situation. The observation
+does not completely support the basic assumption of the
+IGT or SMH neural loops [14] which did not posits that
+LN participates in the anticipation of uncertainty (Figure
+1). The conjoined activation of these two structures might
+reflect that positive and negative emotions were simultaneously invoked [53] by this uncertain monetary game,
+which led to a higher arousal state [54-56]. The arousal
+might catalyze the subject into a self-sustained situation
+where better psychosomatic condition can be tuned to
+augment the explorative intent when confronted with a
+challenge of uncertainty, which in turn can be indispensable for the survival of an organism. Numerous studies
+have demonstrated that activation of LN is correlated with
+the "expectation" of reward [33,56-62] and habit learning
+[41,63] while IN have been reported to be engaged in
+most studies on visceral and aversive disposition [64-69].
+LN can be critical in attributing the positive emotion of
+anticipation [70,71] and motivation, i.e., driving force
+[34,61]. On the other hand, IN is not only frequently
+associated with generation of aversive sensation, e.g., disgust as induced by the repugnant stimuli [67,68], but also
+related to the fear [72] and addition behavior preservation
+[73]. The engagement of LN, a neural substrate important
+
+A few studies out of over one hundred using the similar
+four-deck format and addressing the chosen frequency
+had consistently demonstrated that the high-frequency
+gain decks B and D were preferentially selected than decks
+A and C in the control group [6,8,9,13,18,22,3540,44,45]. The "prominent deck B phenomenon" indicated that subjects were overwhelmed by the high-frequency gain of decks B, D, and also C (as opposed to A, C
+has many standoffs in net value within a trial, see also
+Chiu et al. [7]) and prohibited by the high-frequency loss
+of deck A. Nevertheless, it still stands that subjects prefer
+the good final outcome decks (summation of decks C and
+D) to the bad final outcome decks (summation of deck A
+and B) albeit the fact that the subjects may actually be
+implicitly guided by gain-loss frequency instead of longterm outcome [6]. Such interpretation may contradict the
+SMH reasoning, however, the gain-loss preponderated
+choice behavior is not uncommon in the literature on
+decision making, suggesting that decision makers are
+often myopic to long-term outcomes [49-51], even under
+situations of relative certainty [52].
+
+Table 3: Brain activation during experience phase.
+
+MNI coordinate
+X
+
+Y
+
+Z
+
+Brain Region (Hemisphere)
+Inferior Parietal Lobule (R)
+Superior Frontal Gyrus (R)
+Medial Frontal Gyrus (L)
+
+36
+22
+-42
+
+-62
+10
+22
+
+44
+60
+32
+
+Cluster Size
+(Voxel)
+
+T
+
+P FWE-Corr
+
+562
+41
+76
+
+7.68
+5.52
+5.49
+
+0.005
+0.294
+0.309
+
+The random effect model was applied with stringent family-wise error correction (thresholded at T = 4.42) and voxel-extent of 30 for presentation
+brevity and discussion purpose.
+
+Page 5 of 15
+(page number not for citation purposes)
+
+BMC Neuroscience 2008, 9:72
+
+Figure
+Brain
+and
+experience
+activation
+2
+for gain, draw and loss during anticipation
+Brain activation for gain, draw and loss during anticipation and experience. The red, green and blue represented the gain, draw and loss respectively. The upper figure
+showed the brain activations in these three conditions during
+anticipation (Random Effect: all conditions, Puncorrected =
+0.0001, K = 30). Most regions of three conditions overlap
+during the anticipation stage. The bottom lower figure indicated that different monetary consequences activated different brain regions for different outcomes (Random Effect:
+Gain: Puncorrected = 0.0001, K = 30; Draw: Puncorrected = 0.001, K
+= 10; Loss: Puncorrected = 0.001, K = 10. The threshold levels
+were adjusted for visualization and discussion purpose due to
+the differences of trial numbers in different conditions, inherent in the IGT.
+
+for probability learning [41,74] echoes the behavioral
+results as compelled by the gain-loss frequency.
+Following the appearance of outcomes, the activity of LN
+and IN (limbic structures), subsided and the overall activation pattern eminently changed. The circuitries involve
+only neocortical areas, mainly encompassing the frontalparietal network (IPC, MFG, and SFG) for processing
+value representation and logic inspection. The differential
+segregation of brain representation in respect to driving
+force and experience sentiments during anticipation and
+experience [61] (Figure 1) might attest to two systems,
+e.g., wanting and liking systems [55,75] to further the elucidation of neural correlates of decision making and the
+accompanied interoceptive feeling.
+
+http://www.biomedcentral.com/1471-2202/9/72
+
+Brain activation for gain, loss and draw conditions
+Echoing the behavioral result where the subjects' choices
+were implicitly biased by high-frequency gain and not
+hunched by the long-term outcome, the almost common
+activation pattern in general (Figure 2) during the anticipation phase could not decipher or predict the eventual
+outcome of gain, loss, or draw conditions. LN, IN, thalamus and MTG were commonly involved in the anticipation phase of three conditions [61]. However, the
+overlapped activation patterns diverged into differential
+expressions during experience period. The patterns collectively engaged primary visual cortex (V1), bilateral IPC,
+SFG, posterior IN and CN [61] where different combinations of neural substrates were noted for respective condition. The result implies that the organism may entail
+subcortical/limbic system rather than logic system (neocortex) to deal with the uncertain situation. On the other
+hand, after the gain, loss and draws were clearly presented
+to subjects, the logic system (neo-cortex) was recruited to
+process these consequences. Our results were inconsistent
+with cardinal propositions of SMH that posits the MPFC
+crucial in generating the "guts" feeling and biasing the
+decision during anticipation (the "hunch" processing in
+Damasio's term).
+Brain activation for decks
+Anticipation commonly activated bilateral CN and anterior IN despite some subtle differences in the activated
+foci. This was consistent with the previous findings
+according to gain, loss and draw condition (see Figure 2)
+preconceived with reward-punishment expectation. The
+basal forebrain activation (CN in our study) was engaged
+commonly across the four decks and suggested a cognitive
+component of probability processing or habit establishment during the task performance. MTG activation may
+be related to eye scanning among the four decks while the
+activation of postcentral gyrus (S1) and precentral gyrus
+(M1) could be attributed to joystick operation. Our findings disagreed with the prediction of SMH that the MPFC,
+amygdala, IN and S1 subserve primarily the processing of
+somatic signal for decision.
+
+V1, IPL and SFG were commonly activated during the
+experience period in addition to other discrete regions
+under different deck categories. The neo-cortices (frontalparietal circuitries) were targeted for information processing related to outcome. The IGT is extremely complex and
+is designed to prevent a subject using the logic reasoning
+to find out the long-term benefit. The IGT suggests that
+uncertainty can foster the somatic marker (emotion) system to harbor decision makers in reaching the foresighted
+(rational) status based on long-term processing. This view
+is contentious and may be inconsistent with the numerous studies of "emotion", a phenomenon considered irrational, uncontrollable, and immediate [76,77]. The
+
+Page 6 of 15
+(page number not for citation purposes)
+
+BMC Neuroscience 2008, 9:72
+
+http://www.biomedcentral.com/1471-2202/9/72
+
+Figure
+Brain
+activation
+3
+for four decks during anticipation and experience
+Brain activation for four decks during anticipation and experience. The red, yellow, green and blue stand for decks A,
+B, C, and D, respectively. The upper panel indicated the brain response of the four decks. The activations of four decks mostly
+overlapped at the bilateral striatum, insular cortex, middle temporal gyrus, thalamus, and primary sensory/motor cortex (Random Effect: all conditions, Puncorrected = 0.0001, K = 30). The left S1/M1 is more active before choice than the right S1/M1, possibly related to the right hand movement and joystick control. Following card-selection, bilateral inferior parietal lobule, insular
+cortex, caudate nucleus, posterior cingulate cortex, frontal eye field and primary visual cortex (V1), as well as right superior
+frontal gyrus were activated (Random Effect: all conditions, Puncorrected = 0.0001, K = 30). These representations may imply that
+the attention system is strongly targeted to evaluate the consequences of decks and logically reasoning.
+
+transition from more limbic (anticipation period) to
+more cortical (experience period) structures did not warrant a better rational behavioral performance in our current study. Furthermore, the behavioral results and the
+brain activation maps of current study did not demon-
+
+strated substantial differences within and between the
+good decks (C, D) and bad decks (A, B). The "instability"
+or inconsistent data of IGT across different studies at
+behavioral or physiological levels [16-21,78] may pin-
+
+Page 7 of 15
+(page number not for citation purposes)
+
+BMC Neuroscience 2008, 9:72
+
+http://www.biomedcentral.com/1471-2202/9/72
+
+Figureresponse
+BOLD
+4
+for each monetary value in anticipation and experience
+BOLD response for each monetary value in anticipation and experience. This figure details the BOLD signal changes
+(peri-stimulus time-activity curve) in response to each monetary value (original value * 50 for New Taiwan dollar currency) at
+the activated voxels with local maxima identified during the periods of anticipation and experience of all trials (see Tables 2 &
+3, Figure 1). The white shadow indicates the period for anticipation modeling; the pink shadow indicates that of experience
+modeling. Only the left lentiform nucleus demonstrates the hierarchical signal changes corresponding to the monetary value of
+the gain at the two seconds after card-turning.
+
+Page 8 of 15
+(page number not for citation purposes)
+
+BMC Neuroscience 2008, 9:72
+
+http://www.biomedcentral.com/1471-2202/9/72
+
+BOLD
+Figureresponse
+5
+of the medial prefrontal cortex under large loss ($ -1150) condition of deck B
+BOLD response of the medial prefrontal cortex under large loss ($ -1150) condition of deck B. The detailed analysis for each monetary value found the significant activation (Random Effect: Puncorrected = 0.001, K = 30) of medial prefrontal
+cortex during the experience period of large loss condition. Bilateral inferior parietal lobule and posterior cingulate cortex, left
+frontal eye field, supplementary motor area, and insular cortex were also activated.
+
+point a possible need for a reconsideration of neuro-physiological and neuropsychological assumptions of SMH.
+The role of medial prefrontal cortex in IGT
+Damasio [4] stated that "... the brains of the normal subjects
+were gradually learning to predict a bad outcome, and were signaling the relative badness of the particular deck before the
+actual card-turning." (Damasio, 1994, p. 220). Damasio et
+al. [1-3,48] suggested that the medial prefrontal cortex
+(MPFC) plays an important role in integrating bodily signals (Somatic Marker), which provide emotional representation of different external events. Normal decision
+makers with intact MPFC should be able to integrate the
+bodily signals implicitly and automatically make advantageous real-life decisions. This is of particular importance
+
+under the circumstance in face of uncertain events that
+cannot be logically inferred. Based on the findings of galvanic skin conductance studies of SMH, it is conceivable
+that the medial prefrontal cortex (MPFC) should be more
+activated before selecting the bad decks A or B, namely the
+anticipation period.
+However, the current study did not observe any significant
+activation under these conditions. Only in the experience
+period of the largest loss ($ -1150) of desk B that the
+MPFC was expressed (Figure 5). The MPFC function may
+contribute to the immediate and shortsighted view as
+related to error detection [79-87]. The results of this study
+imply that MPFC may play a critical role in error monitoring or conflict detection [79,88-91], but might not solic-
+
+Page 9 of 15
+(page number not for citation purposes)
+
+BMC Neuroscience 2008, 9:72
+
+itly play a role in the integration of somatic markers
+(bodily responses) and guiding decisions rationally in the
+long-run. Further studies are needed to exam this speculation since the results cannot discern the different statistical power calculated from different numbers of trials for
+each monetary value. For example, the "$ 100 and $ 50"
+comprised over 70% of trials, but "$ -1150" comprised
+only 1–3% for each (subject) run. This problem is inherent with the IGT design.
+Notably, the right IN manifested the greatest BOLD signal
+response during the standoff condition. We speculated
+that the IN may be related to the calibration of mental
+account or emotion state. On the other hand, right LN
+corresponded to the hierarchical change of gain, and not
+to loss in IGT (Figure 4, more activity in NT$ 5000, NT$
+2500 and see Additional file 3) in face of uncertainty. This
+observation similar to many studies on risk of relative certainty [32-34,57-62,92,93] and is congruent with the view
+that basal ganglion is related to biological reward system.
+
+General discussion
+This study aimed to disclose neural correlates involved in
+decision-making processing during anticipation and experience period of the IGT. There are several points that
+mandate more comprehensive studies for clarification in
+the future. For example, testing of final-outcome, gainloss frequency, and prominent deck B phenomenon at the
+behavioral level reveal only sub-significance. The limited
+findings of behavioral data may result from the internal
+variation of IGT and emotions interfering with the performance of the MR-scanning procedure. Whether there
+exits gender difference of brain activation patterns is of
+pertinent interest. For instance, Bolla et al. reported a gender difference in the activity of OFC and DLPFC during
+IGT using a gender-balanced approach [94]. Nevertheless,
+regions such as the basal ganglia [95] and parietal cortex
+[31,32], suggested to be involved in reward-based probability learning [41,74] under uncertainty, was not emphasized by Bolla et al. study. On the other hand, the negative
+finding of the ventro-orbital MPFC in this study could
+possibly be attributed to the susceptibility signal loss of
+fMRI acquisition.
+Our behavioral and imaging findings differed from previous IGT-fMRI studies. Caroselli et al. [35] investigated a
+large population (seventy-one male, sixty-three female)
+demonstrated also the "prominent deck B phenomenon"
+and absence of learning curve. A careful review of IGTfMRI studies disclosed that only Northoff et al. [29] presented detailed behavioral data for a four-deck format and
+demonstrated the "prominent deck B phenomenon".
+Albeit the discrepancy in the behavioral data with original
+IGT, the MPFC was found to be activated. The IGT-fMRI
+study by Fukui et al. presented behavioral data for the IGT
+
+http://www.biomedcentral.com/1471-2202/9/72
+
+with a two-deck format [25] and perfectly replicated the
+original findings as reported by the Iowa group's study in
+1994 [48]. However, Fukui et al. behavioral data contradicted with a recent study by Sevy et al., and Johnson et al.,
+and Bechara on the "prominent deck B phenomenon"
+[46,47]. Tanabe et al. utilized a modified IGT, not original
+IGT [96], and focused on the functional discrepancies of
+the ventral MPFC between substance users and a control
+group. These studies mainly focused on brain activity
+changes of the MPFC and OFC in either good-bad or riskysafe conditions (two deck format) without discussion on
+the basal ganglia and parietal cortex in decision-making
+processing. Notwithstanding, no information was tailored to the "prominent deck B phenomenon". Recently,
+Chiu et al. [97] used a modified IGT, namely the Soochow
+Gambling Task (SGT) which possess a relative simple and
+balanced gain-loss structure than IGT, but keeps all uncertain characteristics of IGT. The experiment result of SGT
+clearly demonstrated that decision makers' choice was
+dominated by the gain-loss frequency rather than finaloutcome. The heterogeneity of the experimental paradigms and discrepancies of the resulting behavioral data
+as well as the different approaches for fMRI data analysis
+command a need to further profound and comprehensive
+studies for an empirical account for the SMH theory and
+MPFC function. All the existing behavioral and brain
+imaging literature actually pinpointed that IGT can be not
+that optimal to validate the SMH. Therefore, the VMPFC
+engagements by the IGT remain elusive and mandate a
+further clarification.
+
+Conclusion
+Our data indicated that both LN [41,56] and IN [68,98]
+can be targeted for decision-making during anticipation
+of decision-making under uncertainty. IPL and SFG could
+be involved in the appreciation of the consequences of
+choices. Common brain processing might occur during
+the anticipation periods of gain, loss and draw conditions,
+but the varied outcomes may predispose different neural
+substrates for the various experiential dimensions. A similar transition also occurred in the four-deck conditions.
+The MPFC was founded to be activated only during the
+experience period of the largest loss of deck B, but not during anticipation period. The original proposition of SMH
+that MPFC should be implicitly engaged under ambivalence to monitor and inhibit the selection of the bad finaloutcome deck by the decision makers is not supported by
+the current study. This study suggests that under the confrontation of uncertainty the normal decision makers can
+become myopic. LN and IN might play more vital role in
+generating the "feeling" accompanying anticipation
+which in turn can drive for final decision while MPFC may
+serves more the function of online monitoring and error
+detection. Consequently, the involvement of consciousness in guiding the decision will be very important in
+
+Page 10 of 15
+(page number not for citation purposes)
+
+BMC Neuroscience 2008, 9:72
+
+http://www.biomedcentral.com/1471-2202/9/72
+
+Figure 6 version of IGT and event-related fMRI design
+Computer
+Computer version of IGT and event-related fMRI design. Participants were free to consider which deck they wished to
+choose. The anticipation period encompassed 6 seconds prior to the button press (0 second) for fMRI data. The experience
+period started from button press. The timing of each selection was jittered by subject's free contemplation. Each subject's
+time-specific selection pattern was used to model the fMRI signal. After the button-press, the computer displayed the monetary value of gain, loss, or draw via changes in the top bar. The computer displayed the consequences of choices for 8 seconds,
+during which the participants were unable to press the button.
+
+understanding the mechanism of covert (emotion) –
+overt (rational) coupling [99].
+
+Methods
+Subjects
+Twenty-four college and graduate school students, 19 to
+32 years old (Mean age = 21.0 years old; SD = 3.1; 8 males,
+16 females) participated in this study. They had not
+played the IGT before. Written informed consent was
+obtained from each subject prior to the experiment. Prior
+to the experiment, each subject gave informed consent to
+the experimental protocol, which had been approved by
+the Institutional Ethics Committee of Taipei Veterans
+General Hospital. The experiment was conducted in
+accordance with the Declaration of Helsinki.
+Paradigms
+Each subject was asked to play a computerized four-deck
+IGT game according to the original design [48]. Subjects
+were asked to turn a card from the 4-decks voluntarily.
+The inside of the card was either in black or red, which was
+
+unrelated to gain or loss. The subjects were instructed to
+maximize gains and minimize losses when playing the
+game. The IGT contained four decks. Decks A and B had
+potentially large immediate gains ($ 100) and losses ($ 50 to $ -1150) in each trial and a disadvantageous finaloutcome ($ -250) from the average of ten trials. Decks C
+and D had small immediate gain ($ 50) and loss ($ -25 to
+$ -200) and an advantageous final-outcome ($ 250) (for
+detailed gain-loss structure and instructions for IGT,
+please refer to the references [48,100,101]). Subjects did
+not know the internal IGT structure of gain and loss. The
+game ended with a total of 100 trials. Different card-display arrangement (ABCD, BCDA ...etc.) for each subject
+was implemented to counterbalance the card position
+effect and possible confound of eye movement. Subjects
+were instructed to play the game using real monetary
+value (New Taiwan dollar, NT) and were rewarded with
+their final winnings (divided by 1000). For example, a
+subject with an account balance of NT 320,000 at the end
+of the game was rewarded with 320 NT dollars (~US$ 10).
+The time interval of 6 seconds preceding the button press
+
+Page 11 of 15
+(page number not for citation purposes)
+
+BMC Neuroscience 2008, 9:72
+
+was defined as anticipation period and the interval after
+was defined as experience period (see Figure 6 and legend
+for details).
+Subjects conducted a short practice version of IGT for
+familiarization (with different internal structure of gain
+and loss) before actual scanning and during the tri-pilot
+scanning inside the MRI-scanner. The fMRI inter-trial
+interval was set to be longer than 10 seconds to increase
+the sensitivity of event-related design [101]. Subjects were
+free to select the card without time constraint. To avoid
+the MRI-signal inhomogeneity and the inter-session confounds, the experiment was devoid of 9 interruptions as
+the original IGT game where the subjects were asked two
+questions after each 10 trials [8,102-104]. Subjects used a
+joystick with a press-button for card selection. All subjects
+completed the fMRI-experiment in less than 1 hour. The
+structural and anatomical images were acquired after a 15
+minute break outside the scanner.
+fMRI data acquisition
+Images were acquired using a 3.0 T Bruker MedSpec S300
+system MRI (Kalsrube, Germany) with a quadrature head
+coil. The subjects' heads were immobilized with a vacuum-beam pad in the scanner. Functional data were
+acquired with a T2*-weighted gradient-echo EPI using
+BOLD contrast (TR/TE/θ = 2000 ms/50 ms/90°, slice
+thickness = 5 mm, interslice interval = 1 mm, Field of view
+(FOV) = 230 × 230 mm2, 64 × 64 × 20 matrix, whole brain
+coverage). The first five images (dummy images) of each
+session were discarded from the analysis to eliminate possible non-equilibrium effects of magnetization. The anatomical image was acquired using a high-resolution T1weighted, 3D gradient-echo pulse sequence modified
+driven equilibrium Fourier transform (MDEFT); TR/TE/TI
+= 88.1 ms/4.12 ms/650 ms, slice thickness = 1.5 mm, 256
+× 256 × 128 matrix, FOV = 230 × 230 mm2.
+Data processing and analysis
+The computer version of IGT (programmed with Matlab
+6.5) was used to register the behavioral profiles and decision time-points. Image and statistical analyses were processed with SPM2 (Welcome Department of Cognitive
+Neurology, London, UK) and displayed using xjView 4.0
+(Human Neuroimaging Lab, Baylor College of Medicine,
+Houston, TX, U.S.A). Scans were realigned, coregistered,
+normalized, time corrected and spatially smoothed with a
+4 mm full-width-at-half-maximum (FWHM) Gaussian
+kernel using standard SPM methods. Because of the free
+choice and event related design, each subject performed
+100 events (choices) in total and the scan (image) number
+ranged from 547 to 652 (scans). General Linear Model
+(GLM) was first used to model the event-time course for
+each subject. Regional differences were statistically thresholded at corrected (family-wise error correction) PFWE-Corr
+
+http://www.biomedcentral.com/1471-2202/9/72
+
+= 0.05, voxel extent (K) = 30 in within-subject analysis. A
+random-effect model was applied for the final secondlevel (between-subject) analysis (Puncorrected = 0.0001, K =
+30). Coordinates of Z(T)-maxima were registered in
+Talairach and Tournoux's 3-D brain stereotaxic system
+under MNI template in the SPM [105]. The images were
+displayed in neurological convention (the left hemisphere
+in the image is the left hemisphere of subject).
+We shifted forward the hemodynamic response function
+(hrf) by 6 seconds (3 scans) as indexed to the button press
+and the epoch ("hrf (with time derivative)" in SPM) was
+modeled as pre-choice event for anticipatory phase. The
+epoch backward ("hrf (with time derivative)" in SPM) as
+indexed to the button press was modeled as post-choice
+event for experience phase. The experimental designs for
+the four types of comparisons were listed below: 1) total
+events: anticipation- and outcome-related brain activation
+across all subjects; 2) gain-loss status: gain, draw, and lossrelated brain activation across all subjects; 3) deck category:
+A, B, C, and D-deck related brain activation across all subjects;
+4) time course of brain activity according to monetary
+value in NT$ (US$): 5000(100), 2500(50), 1250(25), 0, 1250(-25), -2500(-50), -5000(-100), -7500(-150), 10000(-200), -12500(-250), -57500(-1150). Cerebral
+activity corresponding to each monetary value was
+extracted from the mostly-activated voxel out of regions
+identified in brain activation maps from 1). Activity readouts from trials of the same monetary value (not same
+amount of trials across all monetary values) in each individual were first averaged respectively and then averaged
+across 24 individuals (a few conditions were averaged
+with a relatively small number of subjects). Brain activity
+maps for respective anticipatory and experience phases of
+each monetary value across 24 subjects were also
+obtained. For brevity and discussion purpose, we particularly focused and presented the findings on the MPFC, i.e.,
+medial prefrontal cortex.
+According to the original design of IGT, the IGT is highly
+uncertain in comparison to other gambles. Each subject's
+choice pattern is very different from those of other subjects because subjects possess variant choice numbers and
+schedules for specific event (e.g., -1150). The time point
+of a specific event was retrieved from behavioral data to
+register the brain signal of a specific event. xjView 4.0 was
+exploited for the result display.
+
+Abbreviations
+ACC: Anterior Cingulate Cortex; CN: Caudate Nucleus;
+DLPFC: Dorsolateral Prefrontal Cortex; IGT: Iowa Gambling Task; IN: Insular Cortex; IPL: Inferior Parietal Lobule; LN: Lentiform Nucleus; MPFC: Medial Prefrontal
+Cortex; MFG: Middle Frontal Gyrus; MTG: Middle Temporal Gyrus; OFC: Orbitofrontal Cortex; SGT: Soochow
+
+Page 12 of 15
+(page number not for citation purposes)
+
+BMC Neuroscience 2008, 9:72
+
+Gambling Task; SMH: Somatic Marker Hypothesis; STG:
+Superior Temporal Gyrus.
+
+Competing interests
+The authors declare that they have no competing interests.
+
+Authors' contributions
+CH and YC had contributed equally to the idea innovation, literature review, data interpretation and drafting
+preliminary manuscript. CH and CM had conducted all
+the data acquisition, and CM was responsible for the MRI
+scanning. CH worked independently on analyzing behavioral and image data as well as manuscript drafting. CH
+was co-tutored by YC (behavioral decision and theoretical
+mainframes) and JC (brain imaging and neurophysiology) for his PhD thesis. JC established all the imagingexperiment setup and finalized the fMRI interpretation
+and manuscript with CH. All authors gave final consent
+for manuscript submission and publication.
+
+http://www.biomedcentral.com/1471-2202/9/72
+
+Acknowledgements
+The study was sponsored by National Science Council (NSC 95-2413-H031-004, 96-2752-B-010-006-PAE) and Taipei Veteran General Hospital
+(V95ER1-001). Special thanks to Yu-Kai Lin for his double-confirmation on
+some fMRI data, Drs. Po-Lei Lee and Tzu-Chen Yeh for their contribution
+in programming the computer version of IGT and technical support of MRI
+scanning. The authors appreciated all participants from Soochow University
+and National Yang-Ming University.
+
+References
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+
+Additional material
+
+8.
+
+Additional file 1
+Most subjects seem prefer to choose deck B which is consistent with the
+observation in some researches which demonstrated their IGT data in a
+clear "four-deck format". Here we provided a repeated measurement
+ANOVA for two variables (expected value: bad (A, B) vs. good (C, D);
+gain-loss frequency: high-frequency gain (B, D) vs. Low-frequency gains
+(A, C)) were listed as below table. The result indicated there is non-significant effect in the testing.
+Click here for file
+[http://www.biomedcentral.com/content/supplementary/14712202-9-72-S1.doc]
+
+9.
+
+10.
+11.
+12.
+13.
+
+Additional file 2
+The learning curve of five blocks in each 20 trials showed that subjects
+gradually chose the deck B and avoid deck A, but there have no obviously
+ascending pattern for decks C and D in the IGT. The present result may
+be inconsistent with the original finding of IGT, but might be congruent
+with most IGT related studies which did not show the learning curve of
+each deck (most of them use the combination of good decks or bad decks).
+The repeated measurement ANOVA for three variables (expected value:
+bad (A, B) vs. good (C, D), gain-loss frequency: high-frequency gain (B,
+D) vs. Low-frequency gains (A, C), and block (1–5)) was provided here.
+The result indicated there is a significant effect on block testing.
+Click here for file
+[http://www.biomedcentral.com/content/supplementary/14712202-9-72-S2.doc]
+
+16.
+
+Additional file 3
+
+19.
+
+Mean response of brain area with value. The mean activation was further processed from Figure 5, which is the average BOLD signal from the
+PSTH. The red brackets marked the possible brain regions activated following the monetary change. The lentiform(R) may be in response to the
+change of positive value. In contrast, the superior temporal gyrus may be
+sensitive to the change of negative value.
+Click here for file
+[http://www.biomedcentral.com/content/supplementary/14712202-9-72-S3.doc]
+
+14.
+15.
+
+17.
+
+18.
+
+20.
+21.
+
+Damasio H, Graboeski T, Frank R, Galaburda A, Damasio A: The
+return of Phineas Gage: Clues about the brain from the skull
+of a famous patient. Science 1994, 264:1102-1105.
+Damasio A, Tranel D, Damasio H: The somatic marker hypothesis and the possible functions of the prefrontal cortex. Phil
+Trans R Soc Lond B 1996, 351:1413-1420.
+Damasio A, Tranel D, Damasio H: Individuals with sociopathic
+behavior caused by frontal damage fail to respond autonomiccally to social stimuli. Behav Brain Res 1990, 41:81-94.
+Damasio A: Descartes' error: emotion, reason, and the human brain New
+York: G. P. Putnam's Sons; 1994.
+Rolls ET: Emotion Explained New York: Oxford University Press; 2005.
+Lin CH, Chiu YC, Lee PL, Hsieh JC: Is deck B a disadvantageous
+deck in the Iowa Gambling Task? Behav Brain Funct 2007, 3:16.
+Chiu YC, Lin CH: Is deck C an advantageous deck in the Iowa
+Gambling Task? Behav Brain Funct 2007, 3:37.
+Maia T, McClelland J: A reexamination of the evidence for the
+somatic marker hypothesis: what participants really know in
+the Iowa gambling task.
+Proc Natl Acad Sci USA 2004,
+101(45):16075-16080.
+Wilder KE, Weinberger DR, Goldberg TE: Operant conditioning
+and the orbitofrontal cortex in schizophrenic patients: unexpected evidence for intact functioning. Schizophr Res 1998,
+30(2):169-174.
+Panksepp J: Damasio's Error. Consciousness and Emotion 2003,
+4:111-134.
+Rolls ET: The brain and emotion New York: Oxford University Press;
+1999.
+MacPherson SE, Phillips LH, Della Sala S: Age, executive function,
+and social decision making: a dorsolateral prefrontal theory
+of cognitive aging. Psychol Aging 2002, 17(4):598-609.
+Rodriguez-Sanchez JM, Crespo-Facorro B, Perez-Iglesias R, GonzalezBlanch C, Alvarez-Jimenez M, Llorca J, Vazquez-Barquero JL: Prefrontal cognitive functions in stabilized first-episode patients
+with schizophrenia spectrum disorders: a dissociation
+between dorsolateral and orbitofrontal functioning. Schizophr
+Res 2005, 77(2–3):279-288.
+Bechara A: Neurobiology of decision-making: risk and reward.
+Semin Clin Neuropsychiatry 2001, 6(3):205-216.
+Bechara A, Damasio A: The somatic marker hypothesis: a neural theory of economic decision. Games Econ Behav 2005,
+52:336-372.
+Leland J, Grafman J: Experimental tests of Somatic Marker
+hypothesis. Games Econ Behav 2005, 52:386-409.
+Maia TV, McClelland JL: A reexamination of the evidence for the
+somatic marker hypothesis: what participants really know in
+the Iowa gambling task.
+Proc Natl Acad Sci USA 2004,
+101(45):16075-16080.
+O'Carroll RE, Papps BP: Decision making in humans: the effect
+of manipulating the central noradrenergic system. J Neurol
+Neurosurg Psychiatry 2003, 74(3):376-378.
+North NT, O'Carroll RE: Decision making in patients with spinal cord damage: afferent feedback and the somatic marker
+hypothesis. Neuropsychologia 2001, 39(5):521-524.
+Tomb I, Hauser M, Deldin P, Caramazza A: Do somatic markers
+mediate decisions on the gambling task? Nat Neurosci 2002,
+5:1103-1104.
+Heims HC, Critchley HD, Dolan R, Mathias CJ, Cipolotti L: Social
+and motivational functioning is not critically dependent on
+feedback of autonomic responses: neuropsychological evidence from patients with pure autonomic failure. Neuropsychologia 2004, 42(14):1979-1988.
+
+Page 13 of 15
+(page number not for citation purposes)
+
+BMC Neuroscience 2008, 9:72
+
+22.
+23.
+24.
+
+25.
+26.
+
+27.
+28.
+29.
+
+30.
+
+31.
+32.
+33.
+34.
+35.
+
+36.
+37.
+38.
+39.
+40.
+41.
+42.
+43.
+
+44.
+
+Dunn BD, Dalgleish T, Lawrence AD: The somatic marker
+hypothesis: A critical evaluation. Neurosci Biobehav Rev 2006,
+30(2):239-271.
+Ernst M, Bolla K, Mouratidis M, Contoreggi C, Matochik JA, Kurian V,
+Cadet JL, Kimes AS, London ED: Decision-making in a risk-taking
+task: a PET study. Neuropsychopharmacology 2002, 26(5):682-691.
+Ernst M, Kimes AS, London ED, Matochik JA, Eldreth D, Tata S, Contoreggi C, Leff M, Bolla K: Neural substrates of decision making
+in adults with attention deficit hyperactivity disorder. Am J
+Psychiatry 2003, 160(6):1061-1070.
+Fukui H, Murai T, Fukuyama H, Hayashi T, Hanakawa T: Functional
+activity related to risk anticipation during performance of
+the Iowa Gambling Task. Neuroimage 2005, 24(1):253-259.
+Adinoff B, Devous MD, Cooper DB, Best SE, Chandler P, Harris T,
+Cervin CA, Cullum CM: Resting regional cerebral blood flow
+and gambling task performance in cocaine-dependent subjects and healthy comparison subjects. Am J Psychiatry 2003,
+160(10):1892-1894.
+Tucker KA, Potenza MN, Beauvais JE, Browndyke JN, Gottschalk PC,
+Kosten TR: Perfusion abnormalities and decision making in
+cocaine dependence. Biol Psychiatry 2004, 56(7):527-530.
+Bolla KI, Eldreth DA, Matochik JA, Cadet JL: Neural substrates of
+faulty decision-making in abstinent marijuana users. Neuroimage 2005, 26(2):480-492.
+Northoff G, Grimm S, Boeker H, Schmidt C, Bermpohl F, Heinzel A,
+Hell D, Boesiger P: Affective judgment and beneficial decision
+making: ventromedial prefrontal activity correlates with
+performance in the Iowa Gambling Task. Hum Brain Mapp
+2006, 27(7):572-587.
+Bolla KI, Eldreth DA, London ED, Kiehl KA, Mouratidis M, Contoreggi
+C, Matochik JA, Kurian V, Cadet JL, Kimes AS, et al.: Orbitofrontal
+cortex dysfunction in abstinent cocaine abusers performing
+a decision-making task. Neuroimage 2003, 19(3):1085-1094.
+Huettel SA, Song A, McCarthy G: Decisions under uncertainty:
+probabilistic context influences activation of prefrontal and
+parietal cortices. J Neurosci 2005, 25(13):3304-3311.
+Huettel SA, Stowe CJ, Gordon EM, Warner BT, Platt ML: Neural
+signatures of economic preferences for risk and ambiguity.
+Neuron 2006, 49(5):765-775.
+Knutson B, Fong GW, Adams CM, Varner JL, Hommer D: Dissociation of reward anticipation and outcome with event-related
+fMRI. Neuroreport 2001, 12(17):3683-3687.
+Breiter H, Aharon I, Kahneman D, Dale A, Shizgal P: Functional
+imaging of neural responses to expectancy and experience of
+monetary gains and losses. Neuron 2001, 30:619-639.
+Caroselli JS, Hiscock M, Scheibel RS, Ingram F: The simulated gambling paradigm applied to young adults: an examination of
+university students' performance. Appl Neuropsychol 2006,
+13(4):203-212.
+Toplak ME, Jain U, Tannock R: Executive and motivational processes in adolescents with Attention-Deficit-Hyperactivity
+Disorder (ADHD). Behav Brain Funct 2005, 1:8.
+Ritter LM, Meador-Woodruff JH, Dalack GW: Neurocognitive
+measures of prefrontal cortical dysfunction in schizophrenia.
+Schizophr Res 2004, 68(1):65-73.
+Overman WH, Frassrand K, Ansel S, Trawalter S, Bies B, Redmond
+A: Performance on the IOWA card task by adolescents and
+adults. Neuropsychologia 2004, 42(13):1838-1851.
+Martino DJ, Bucay D, Butman JT, Allegri RF: Neuropsychological
+frontal impairments and negative symptoms in schizophrenia. Psychiatry Res 2007.
+Fernie G, Tunney RJ: Some decks are better than others: the
+effect of reinforcer type and task instructions on learning in
+the Iowa Gambling Task. Brain Cogn 2006, 60(1):94-102.
+Knowlton BJ, Mangels JA, Squire LR: A neostriatal habit learning
+system in humans. Science 1996, 273(5280):1399-1402.
+Platt ML, Glimcher PW: Neural correlates of decision variables
+in parietal cortex. Nature 1999, 400(6741):233-238.
+Roger RD, Owen AM, Middleton HC, Williams EJ, Pickard JD, Sahakian BJ, Robbins TW: Choosing between small likely rewards
+and large, unlikely rewards activates inferior and orbital prefrontal cortex. J Neurosci 1999, 19:9029-9038.
+Crone EA, Somsen RJM, van Beek B, Molen MW van Der: Heart
+rate and skin conductance analysis of antecendents and consequences of decision making.
+Psychophysiology 2004,
+41:531-540.
+
+http://www.biomedcentral.com/1471-2202/9/72
+
+45.
+46.
+
+47.
+
+48.
+49.
+50.
+51.
+52.
+53.
+
+54.
+55.
+56.
+57.
+58.
+59.
+60.
+61.
+
+62.
+
+63.
+64.
+65.
+66.
+67.
+68.
+
+Bark R, Dieckmann S, Bogerts B, Northoff G: Deficit in decision
+making in catatonic schizophrenia: an exploratory study. Psychiatry Res 2005, 134(2):131-141.
+Sevy S, Burdick KE, Visweswaraiah H, Abdelmessih S, Lukin M,
+Yechiam E, Bechara A: Iowa gambling task in schizophrenia: a
+review and new data in patients with schizophrenia and cooccurring cannabis use disorders. Schizophr Res 2007, 92(1–
+3):74-84.
+Johnson CA, Xiao L, Palmer P, Sun P, Wang Q, Wei Y, Jia Y, Grenard
+JL, Stacy AW, Bechara A: Affective decision-making deficits,
+linked to a dysfunctional ventromedial prefrontal cortex,
+revealed in 10th grade Chinese adolescent binge drinkers.
+Neuropsychologia 2008, 46(2):714-726.
+Bechara A, Damasio A, Damasio H, Anderson S: Insensitivity to
+future consequences following damage to human prefrontal
+cortex. Cognition 1994, 50:7-15.
+Kahneman D, Tversky A: Prospect theory: an analysis of decision under risk. Econometrica 1979, 47:263-291.
+Tversky A, Kahneman D: The framing of decisions and the psychology of choice. Science 1981, 211:453-458.
+Kahneman D: Maps of bounded rationality: psychology for
+behavioral economics. Amer Econ Rev 2003, 93:1449-1475.
+Lichtenstein S, Slovic P, Zink DJ: Effect of instruction in expected
+value on optimality of gambling decisions. J Exp Psychol Gen
+1969, 79:236-240.
+Cacioppo JT, Gardner WL, Bernston GG: The affective system
+has parallel and integrative processing components: form
+follows function. In Foundations In Social Neuroscience Edited by:
+Cacioppo JT, Berntson GG, Adolphs R, Carter S, Davidson RJ,
+McClintock MK, McEwen BS, Meaney MJ, Schacter DL, Sternberg EM,
+et al. Cambridge: MIT; 2002:493-522.
+Berns GS, McClure SM, Pagnoni G, Montague PR: Predictability
+modulates human brain response to reward. J Neurosci 2001,
+21(8):2793-2798.
+Berridge KC, Robinson TE: What is the role of dopamine in
+reward: hedonic impact, reward learning, or incentive salience? Brain Res Brain Res Rev 1998, 28(3):309-369.
+Schultz W, Apicella P, Scarnati E, Ljungberg T: Neuronal activity in
+monkey ventral striatum related to the expectation of
+reward. J Neurosci 1992, 12:4595-4610.
+Preuschoff K, Bossaerts P, Quartz SR: Neural differentiation of
+expected reward and risk in human subcortical structures.
+Neuron 2006, 51(3):381-390.
+Knutson B, Adams CM, Fong GW, Hommer D: Anticipation of
+increasing monetary reward selectively recruits nucleus
+accumbens. J Neurosci 2001, 21(16):RC159.
+Knutson B, Cooper JC: Functional magnetic resonance imaging
+of reward prediction. Curr Opin Neurol 2005, 18(4):411-417.
+Kuhnen CM, Knutson B: The neural basis of financial risk taking.
+Neuron 2005, 47(5):763-770.
+Breiter HC, Gasic GP: A general circuitry processing reward/
+aversion information and its implications for neuropsychiatric illness. In The Cognitive Neurosciences III 3rd edition. Edited by:
+Gazzaniga MS. Cambridge, MA: MIT Press; 2005:1043-1065.
+Pessiglione M, Seymour B, Flandin G, Dolan RJ, Frith CD:
+Dopamine-dependent prediction errors underpin rewardseeking
+behaviour
+in
+humans.
+Nature
+2006,
+442(7106):1042-1045.
+Eichenbaum H, Cohen NJ: From conditioning to conscious recollection:
+memory systems of the brain Oxford: Oxford University Press; 2001.
+Schienle A, Schafer A, Stark R, Walter B, Vaitl D: Gender differences in the processing of disgust- and fear-inducing pictures: an fMRI study. Neuroreport 2005, 16(3):277-280.
+Schienle A, Schafer A, Walter B, Stark R, Vaitl D: Brain activation
+of spider phobics towards disorder-relevant, generally disgust- and fear-inducing pictures. Neurosci Lett 2005, 388(1):1-6.
+Schienle A, Schafer A, Stark R, Walter B, Vaitl D: Relationship
+between disgust sensitivity, trait anxiety and brain activity
+during disgust induction. Neuropsychobiology 2005, 51(2):86-92.
+Schienle A, Schafer A, Hermann A, Walter B, Stark R, Vaitl D: fMRI
+responses to pictures of mutilation and contamination. Neurosci Lett 2006, 393(2–3):174-178.
+Stark R, Schienle A, Walter B, Kirsch P, Sammer G, Ott U, Blecker C,
+Vaitl D: Hemodynamic responses to fear and disgust-inducing
+pictures: an fMRI study. Int J Psychophysiol 2003, 50(3):225-234.
+
+Page 14 of 15
+(page number not for citation purposes)
+
+BMC Neuroscience 2008, 9:72
+
+69.
+
+70.
+
+71.
+72.
+73.
+74.
+75.
+76.
+
+77.
+
+78.
+79.
+80.
+81.
+
+82.
+83.
+84.
+85.
+86.
+87.
+88.
+89.
+
+90.
+
+91.
+
+Stark R, Schienle A, Girod C, Walter B, Kirsch P, Blecker C, Ott U,
+Schafer A, Sammer G, Zimmermann M, et al.: Erotic and disgustinducing pictures – differences in the hemodynamic
+responses of the brain. Biol Psychol 2005, 70(1):19-29.
+Kirsch P, Schienle A, Stark R, Sammer G, Blecker C, Walter B, Ott U,
+Burkart J, Vaitl D: Anticipation of reward in a nonaversive differential conditioning paradigm and the brain reward system: an event-related fMRI study.
+Neuroimage 2003,
+20(2):1086-1095.
+O'Doherty JP, Deichmann R, Critchley HD, Dolan RJ: Neural
+responses during anticipation of a primary taste reward.
+Neuron 2002, 33(5):815-826.
+Schienle A, Stark R, Walter B, Blecker C, Ott U, Kirsch P, Sammer G,
+Vaitl D: The insula is not specifically involved in disgust
+processing: an fMRI study. Neuroreport 2002, 13(16):2023-2026.
+Naqvi NH, Rudrauf D, Damasio H, Bechara A: Damage to the
+insula disrupts addiction to cigarette smoking. Science 2007,
+315:531-534.
+Herrnstein RJ: Formal properties of the matching law. J Exp
+Anal Behav 1974, 21:159-164.
+Berridge KC: The debate over dopamine's role in reward: the
+case for incentive salience. Psychopharmacology (Berl) 2007,
+191(3):391-431.
+Baumeister R: The psychology of irrationality: Why people
+make foolish, self-defeating choices. In The psychology of economics decisions: Rationality and Well-Being Volume I. Edited by: Brocas I,
+Carrillo J. New York: Oxford University Press; 2003.
+Berridge K: Irrational pursuits: hyper-incentives from a visceral brain. In The psychology of economics decisions: Rationality and
+Well-Being Volume I. Edited by: Brocas I, Carrillo J. New York: Oxford
+University Press; 2003:17-40.
+Suzuki A, Hirota A, Takasawa N, Shigemasu K: Application of the
+somatic marker hypothesis to individual differences in decision making. Biol Psychol 2003, 65(1):81-88.
+Gehring WJ, Fencsik DE: Functions of the medial frontal cortex
+in the processing of conflict and errors. J Neurosci 2001,
+21(23):9430-9437.
+Gehring WJ, Willoughby AR: The medial frontal cortex and
+rapid processing of monetary gains and losses. Science 2002,
+295:2279-2282.
+Garavan H, Ross TJ, Murphy K, Roche RA, Stein EA: Dissociable
+executive functions in the dynamic control of behavior: inhibition, error detection, and correction. Neuroimage 2002,
+17(4):1820-1829.
+Shallice T, Burgress P: The domain of supervisory processes and
+temporal organization of behaviour. Phil Trans R Soc Lond B
+1996, 351:1405-1412.
+Tremblay L, Schultz W: Relative reward preference in primate
+orbitofrontal cortex. Nature 1999, 398:704-708.
+Rolls ET: The orbitofrontal cortex. Phil Trans R Soc Lond B 1996,
+351:1433-1444.
+Fellows LK, Farah MJ: Ventromedial frontal cortex mediates
+affective shifting in humans: evidence from a reversal learning paradigm. Brain 2003, 126:1830-1837.
+Tinklepaugh OL: An experimental study of representive factors in monkeys. J Comp Psychol 1928, 8:197-236.
+Watanabe M: Attraction is relative not absolute. Nature 1999,
+398:661-663.
+Mars RB, Coles MG, Grol MJ, Holroyd CB, Nieuwenhuis S, Hulstijn
+W, Toni I: Neural dynamics of error processing in medial frontal cortex. Neuroimage 2005, 28(4):1007-1013.
+Wang C, Ulbert I, Schomer DL, Marinkovic K, Halgren E: Responses
+of human anterior cingulate cortex microdomains to error
+detection, conflict monitoring, stimulus-response mapping,
+familiarity, and orienting. J Neurosci 2005, 25(3):604-613.
+Rollnik JD, Schroder C, Rodriguez-Fornells A, Kurzbuch AR, Dauper
+J, Moller J, Munte TF: Functional lesions and human action
+monitoring: combining repetitive transcranial magnetic
+stimulation and event-related brain potentials. Clin Neurophysiol 2004, 115(1):145-153.
+Walton ME, Bannerman DM, Alterescu K, Rushworth MF: Functional specialization within medial frontal cortex of the anterior cingulate for evaluating effort-related decisions. J
+Neurosci 2003, 23(16):6475-6479.
+
+http://www.biomedcentral.com/1471-2202/9/72
+
+92.
+93.
+94.
+95.
+96.
+
+97.
+98.
+99.
+100.
+101.
+102.
+103.
+104.
+105.
+
+Dickhaut J, McCabe K, Nagode JC, Rustichini A, Smith K, Pardo JV:
+The impact of the certainty context on the process of choice.
+Proc Natl Acad Sci USA 2003, 100(6):3536-3541.
+Tobler PN, O'Doherty JP, Dolan RJ, Schultz W: Reward value coding distinct from risk attitude-related uncertainty coding in
+human reward systems. J Neurophysiol 2007, 97(2):1621-1632.
+Bolla KI, Eldreth DA, Matochik JA, Cadet JL: Sex-related differences in a gambling task and its neurological correlates.
+Cereb Cortex 2004, 14(11):1226-1232.
+Delgado MR, Miller MM, Inati S, Phelps EA: An fMRI study of
+reward-related probability learning.
+Neuroimage 2005,
+24(3):862-873.
+Tanabe J, Thompson L, Claus E, Dalwani M, Hutchison K, Banich MT:
+Prefrontal cortex activity is reduced in gambling and nongambling substance users during decision-making. Hum Brain
+Mapp 2007.
+Chiu YC, Lin CH, Huang JT, Lin S, Lee PL, Hsieh JC: Immediate gain
+is long-term loss: are there foresighted decision makers in
+the Iowa gambling task? Behav Brain Funct 2008, 4:13.
+Paulus MP, Stein MB: An insular view of anxiety. Biol Psychiatry
+2006, 60(4):383-387.
+Persaud N, McLeod P, Cowey A: Post-decision wagering objectively measures awareness. Nat Neurosci 2007, 10(2):257-261.
+Bechara A, Tranel D, Damasio H, Damasio A: Characterization of
+the decision-making deficit of patients with ventromedial
+prefrontal cortex lesions. Brain 2000, 123:2189-2202.
+Bechara A, Damasio H, Damasio A, Lee GP: Different contributions of the human amygdala and ventromedial prefrontal
+cortex to decision-making. J Neurosci 1999, 19:5473-5481.
+Maia T, McClelland J: The somatic marker hypothesis: still
+many questions but no answers. Trends Cogn Sci 2005,
+9:162-164.
+Bechara A, Damasio H, Tranel D, Damasio A: Deciding advantageously before knowing the advantageous strategy. Science
+1997, 275:1293-1295.
+Bechara A, Damasio H, Tranel D, Damasio A: The Iowa gambling
+task and the somatic marker hypothesis: some questions and
+answers. Trends Cogn Sci 2005, 9:159-162.
+Talairach J, Tournoux P: Co-Planar Stereotaxic Atlas of the Human Brain:
+3-Dimensional Proportional System: An Approach to Cerebral Imaging New
+York: Thieme Medical Publishers; 1988.
+
+Publish with Bio Med Central and every
+scientist can read your work free of charge
+"BioMed Central will be the most significant development for
+disseminating the results of biomedical researc h in our lifetime."
+Sir Paul Nurse, Cancer Research UK
+
+Your research papers will be:
+available free of charge to the entire biomedical community
+peer reviewed and published immediately upon acceptance
+cited in PubMed and archived on PubMed Central
+yours — you keep the copyright
+
+BioMedcentral
+
+Submit your manuscript here:
+http://www.biomedcentral.com/info/publishing_adv.asp
+
+Page 15 of 15
+(page number not for citation purposes)
+
+
