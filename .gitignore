@@ -1,2 +1,5 @@
 neuro_words.csv
 pubmed_result.txt
+imgs/*
+pdfs/*
+txts/*
