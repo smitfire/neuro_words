@@ -15,4 +15,17 @@ def read_data(fname):
             writer.writerow(row)
     return "Write complete"
 
-print read_data("pubmed_result.txt")
+# print read_data("pubmed_result.txt")
+
+def format_brain(fname):
+    my_file = open(fname, "r")
+    return list(set(my_file.read().split("\n")))
+
+def format_scale(fname):
+    my_file = open(fname, "r")
+    lines = list(set(my_file.read().split("\r")))
+    return [line.split(',')[0] for line in lines]
+
+# pp(format_brain("mesh_brain3.txt"))
+pp(format_scale("mmy_index.txt"))
+pp(len(format_scale("mmy_index.txt")))
