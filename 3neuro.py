@@ -43,10 +43,18 @@ def read_data(fname):
       #   break
       for sterm in sterms:
         if sterm in abstract:
-          if sterm in my_hash:
-            my_hash[sterm] = my_hash[sterm] + [bterm for bterm in bterms if bterm in abstract]
-          else:
-            my_hash[sterm] = [bterm for bterm in bterms if bterm in abstract]
+          bees = [bterm for bterm in bterms if bterm in abstract]
+          if bees:
+            for bee in bees:
+              combined = (sterm, bee)
+              if combined in my_hash:
+                my_hash[combined] += 1
+              else:
+                my_hash[combined] = 1
+          # if sterm in my_hash:
+          #   my_hash[sterm] = my_hash[sterm] + [bterm for bterm in bterms if bterm in abstract]
+          # else:
+          #   my_hash[sterm] = [bterm for bterm in bterms if bterm in abstract]
 
     return my_hash
     # with open("nw.csv", "wb") as neuro_words:
