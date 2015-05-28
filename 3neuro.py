@@ -1,4 +1,4 @@
-import csv, urllib2, os, operator, string, itertools, re
+import csv, urllib2, os, operator, string, itertools, re, json
 from pprint import pprint as pp
 from nltk.corpus import stopwords
 from collections import Counter
@@ -55,6 +55,9 @@ def read_data(fname):
           #   my_hash[sterm] = my_hash[sterm] + [bterm for bterm in bterms if bterm in abstract]
           # else:
           #   my_hash[sterm] = [bterm for bterm in bterms if bterm in abstract]
+
+    with open('result.json', 'w') as fp:
+        json.dump(my_hash, fp)
 
     return my_hash
     # with open("nw.csv", "wb") as neuro_words:
