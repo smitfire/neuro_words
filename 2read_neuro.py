@@ -8,40 +8,38 @@ def read_data(fname):
     my_file = open(fname, "r")
     lines = my_file.read().translate(string.maketrans("",""), string.punctuation).lower().split("\n\n\n")
     my_file.close()
-    bterms = set(format_brain("mesh_brain3.txt"))
-    sterms = set(format_scale("mmy_index.txt"))
+    bterms = format_brain("mesh_brain3.txt")
+    sterms = format_scale2("mmy_index.txt")
     formatted = [[l.replace("\n", " ") for l in line.split("\n\n")[1::]] for line in lines]
     form2 = [list(operator.itemgetter(0, 3, -1)(line)) for line in formatted if len(line) > 3]
-    with open("nw.csv", "wb") as neuro_words:
+    with open("nw2.csv", "wb") as neuro_words:
         writer = csv.writer(neuro_words)
-        header = ['title', 'content', 'pmid', 'scales', 'brain regions']
+        header = ['title', 'content', 'pmid', 'scales', 'bregions']
         writer.writerow(header)
         for index, row in enumerate(form2):
-            if index == 10:
-                break
-            r = set(row[1].split(' '))
-            scales = [" | ".join(list(r.intersection(sterms)))]
-            bregions = [" | ".join(list(r.intersection(bterms)))]
-            pp(r)
-            print "==================================================="
-            pp(sterms)
-            pp(scales)
-            print "==================================================="
+            # if index == 500:
+            #     break
+            bregions = ' | '.join(list(set([bterm for bterm in bterms if bterm in row[1]])))
+            scales = ' | '.join(list(set([sterm for sterm in sterms if sterm in row[1]])))
+            print "====================BRAIN REGIONS==============================="
             pp(bregions)
-            print "==================================================="
-            row + scales + bregions
-            pp(row)
-            # writer.writerow(row)
+            print "=====================PSYCH SCALES=============================="
+            pp(scales)
+            print "=====================  END  ==============================\n\n"
+            if len(scales) > 1 and len(bregions) > 1:
+                row = row + [scales] + [bregions]
+                writer.writerow(row)
     return "Write complete"
 
 def format_brain(fname):
     my_file = open(fname, "r")
+    read_file = my_file.read()
     my_file.close()
-    return list(set(my_file.read().lower().split("\n")))
+    return list(set(read_file.translate(string.maketrans("",""), string.punctuation).lower().split("\n")))
 
 def format_scale(fname):
     my_file = open(fname, "r")
-    read_file = my_file.read().lower()
+    read_file = list(set(my_file.read().translate(string.maketrans("",""), string.punctuation).lower().split("\r")))
     my_file.close()
     key_words = ' '.join([word for word in read_file.split(" ") if word not in cached_stops])
     lines = list(set(key_words.split("\r")))
@@ -66,7 +64,7 @@ def format_scale3(fname):
     new_lines = ' '.join([line.split(',')[0] for line in lines])
 
 print read_data("pubmed_result.txt")
-# pp(format_brain("mesh_brain3.txt"))
+# pp(format_brain("mesh_brain3.txt")[0:20])
 # pp(format_scale("mmy_index.txt")[0:10])
 # print "="*100
 # pp(format_scale3("mmy_index.txt")[0:10])
