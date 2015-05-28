@@ -46,7 +46,7 @@ def read_data(fname):
           bees = [bterm for bterm in bterms if bterm in abstract]
           if bees:
             for bee in bees:
-              combined = (sterm, bee)
+              combined = sterm + " | " + bee
               if combined in my_hash:
                 my_hash[combined] += 1
               else:
