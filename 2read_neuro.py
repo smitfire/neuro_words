@@ -1,4 +1,4 @@
-import csv, urllib2, os, operator, string
+import csv, urllib2, os, operator, string, itertools
 from pprint import pprint as pp
 from nltk.corpus import stopwords
 
@@ -30,6 +30,16 @@ def read_data(fname):
                 row = row + [scales] + [bregions]
                 writer.writerow(row)
     return "Write complete"
+
+def freq_dic(fname):
+    my_file = open(fname, "r")
+    lines = my_file.read().translate(string.maketrans("",""), string.punctuation).lower().split("\n\n\n")
+    my_file.close()
+    bterms = format_brain("mesh_brain3.txt")
+    sterms = format_scale2("mmy_index.txt")
+    formatted = [[l.replace("\n", " ") for l in line.split("\n\n")[1::]] for line in lines]
+    form2 = [list(operator.itemgetter(0, 3, -1)(line)) for line in formatted if len(line) > 3]
+
 
 def format_brain(fname):
     my_file = open(fname, "r")
