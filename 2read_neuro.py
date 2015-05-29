@@ -73,10 +73,35 @@ def format_scale3(fname):
     my_file.close()
     new_lines = ' '.join([line.split(',')[0] for line in lines])
 
-print read_data("pubmed_result.txt")
+# print read_data("pubmed_result.txt")
 # pp(format_brain("mesh_brain3.txt")[0:20])
 # pp(format_scale("mmy_index.txt")[0:10])
 # print "="*100
 # pp(format_scale3("mmy_index.txt")[0:10])
 # pp(len(format_scale("mmy_index.txt")))
 
+s = """BACKGROUND: Substance dependence and antisocial psychopathology, such as a
+history of childhood conduct disorder (HCCD), are associated with impulsive or
+disadvantageous decision making and reduced working memory capacity (WMC).
+Reducing WMC via a working memory load increases disadvantageous decision making 
+in healthy adults, but no previous studies have examined this effect in young
+adults with substance dependence and HCCD.
+METHOD: Young adults with substance dependence (SubDep; n=158, 71 female),
+substance dependence and HCCD (SubDep+HCCD; n=72, 24 female), and control
+participants (n=152, 84 female) completed a test of decision making (the Iowa
+Gambling Task; IGT) with or without a concurrent working memory load intended to 
+tax WMC. Outcomes were (i) net advantageous decisions on the IGT, and (ii)
+preferences for infrequent- versus frequent-punishment decks.
+RESULTS: SubDep+HCCD men made fewer advantageous decisions on the IGT than
+control men without a load, but there were no group differences among women in
+that condition. Load was associated with fewer advantageous decisions for
+SubDep+HCCD women and control men, but not for men or women in the other groups. 
+Participants showed greater preference for infrequent-punishment, advantageous
+decks under load as well.
+CONCLUSIONS: There are gender differences in the effects of substance dependence,
+HCCD, and working memory load on decision making on the IGT. Decision making by
+control men and SubDep+HCCD women suffered the most under load. Load increases
+preferences for less-frequent punishments, similar to a delay discounting effect.
+Future research should clarify the cognitive and neural mechanisms underlying
+these effects."""
+print len(s)
