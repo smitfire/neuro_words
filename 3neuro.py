@@ -36,7 +36,7 @@ def read_data(fname):
     snbterms = set(format_brain("mesh_brain3.txt") + format_scale("mmy_index.txt"))
     stop = stopwords.words('english')
 
-    formatted = [" ".join([l for l in re.sub(r'\W+', ' ', line).split() if l not in stop and len(l) > 5]) for line in lines]
+    formatted = [" ".join([l for l in re.sub(r'\W+', ' ', line).split() if len(l) > 5]) for line in lines]
     my_hash = {}
     for index, abstract in enumerate(formatted):
       # if index == 100:
@@ -56,7 +56,7 @@ def read_data(fname):
           # else:
           #   my_hash[sterm] = [bterm for bterm in bterms if bterm in abstract]
 
-    with open('result.json', 'w') as fp:
+    with open('result2.json', 'w') as fp:
         json.dump(my_hash, fp)
 
     return my_hash
