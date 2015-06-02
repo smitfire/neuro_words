@@ -36,14 +36,16 @@ def read_data(fname):
     print "SHIT HAS BEEN FORMATTED AND READY TO LOOP!!"
 
     my_hash = {}
+    links = []
     for index, abstract in enumerate(lines2):
       print str(index)
       print "="*100
-      for sterm in sterms:
+      for stindex, sterm in enumerate(sterms):
         if sterm in abstract:
           bees = [bterm for bterm in bterms if bterm in abstract]
           if bees:
             for bee in bees:
+              links.append({"source":stindex,"target":11,"value":19})
               combined = sterm + " | " + bee
               if combined in my_hash:
                 my_hash[combined] += 1
