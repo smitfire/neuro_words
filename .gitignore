@@ -1,4 +1,3 @@
-!names6.json
 imgs/*
 pdfs/*
 txts/*
@@ -9,3 +8,4 @@ xah
 **.csv
 **.txt
 **.rtf
+!names6.json
