@@ -7,11 +7,10 @@
     </head>
     <body>
       <header>
-        <aside>April 10, 2012</aside>
-        <!-- <a href="../" rel="author">Mike Bostock</a> -->
+        <aside>June, 2015</aside>
       </header>
 
-      <h1><i>Les Misérables</i> Co-occurrence</h1>
+      <h1><i>500k Psych Paper Abstracts</i> Co-occurrence</h1>
 
       <div>
         <p>Order: <select id="order">
@@ -28,12 +27,12 @@
       <script>
 
       var margin = {top: 140, right: 100, bottom: 10, left: 150},
-          width = 1020,
-          height = 920;
+          width = 1280,
+          height = 1020;
 
       var x = d3.scale.ordinal().rangeRoundBands([0, width]),
-          z = d3.scale.linear().domain([0, 40]),
-          c = d3.scale.category10().domain(d3.range(10));
+          z = d3.scale.linear().domain([0, 80]),
+          c = d3.scale.category10().domain(d3.range(20));
 
       var svg = d3.select("body").append("svg")
           .attr("width", width + margin.left + margin.right)
@@ -42,7 +41,7 @@
         .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-      d3.json("names6.json", function(miserables) {
+      d3.json("names7.json", function(miserables) {
         // console.log(miserables);
         var matrix = [],
             matrix2 = [],
@@ -139,7 +138,7 @@
             });
 
         function row(row) {
-          console.log(row);
+          // console.log(row);
           var cell = d3.select(this).selectAll(".cell")
               .data(row.filter(function(d) { return d.z; }))
             .enter().append("rect")

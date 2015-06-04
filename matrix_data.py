@@ -12,7 +12,7 @@ def split_keys(fname):
     with open(fname) as data_file:
         data = json.load(data_file)
         for key, val in data.items():
-            if val > 3:
+            if val > 50:
                 bs.append(key.split(" | ")[1])
                 scl.append(key.split(" | ")[0])
             # arr = key.split(" | ")+[randint(1,10)]
@@ -51,7 +51,7 @@ def split_keys(fname):
     for item in bs:
         res["bregions"].append({"name": item, "group": randint(1,10) })
 
-    with open('names6.json', 'w') as fp:
+    with open('names7.json', 'w') as fp:
         json.dump(res, fp)
 
     # for val in res["links"]:
@@ -64,7 +64,7 @@ def split_keys(fname):
 
 def assign_source():
     links = []
-    with open("result3.json") as data_file:
+    with open("result.json") as data_file:
         data = json.load(data_file)
     # return data
     sep = split_keys("result3.json")
@@ -113,7 +113,7 @@ def json_keys(fname):
 
 
 
-pp(split_keys("result3.json"))
+pp(split_keys("result.json"))
 # split_keys("result3.json")
 # pp(get_keys("result3.json"))
 # pp(json_keys("names6.json"))
