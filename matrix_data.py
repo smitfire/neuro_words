@@ -51,7 +51,7 @@ def split_keys(fname):
     for item in bs:
         res["bregions"].append({"name": item, "group": randint(1,10) })
 
-    with open('names7.json', 'w') as fp:
+    with open('names_final.json', 'w') as fp:
         json.dump(res, fp)
 
     # for val in res["links"]:
