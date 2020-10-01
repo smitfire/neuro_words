@@ -4,6 +4,7 @@ txts/*
 xaf
 xag
 xah
+.DS_Store
 **.json
 **.csv
 **.txt
